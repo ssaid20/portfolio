@@ -11,18 +11,15 @@ import {
     redux,
     tailwind,
     nodejs,
-    mongodb,
     git,
     figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
+    Emerging,
+    msum,
+    pethotel,
     tripguide,
     threejs,
+    emergingdev,
+    moviesagas,
   } from "../assets";
   
   export const navLinks = [
@@ -42,11 +39,11 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Full-Stack Developer",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "React and Nextjs Developer",
       icon: mobile,
     },
     {
@@ -54,7 +51,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "UI Designer",
       icon: creator,
     },
   ];
@@ -92,10 +89,10 @@ import {
       name: "Node JS",
       icon: nodejs,
     },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
+    // {
+    //   name: "MongoDB",
+    //   icon: mongodb,
+    // },
     {
       name: "Three JS",
       icon: threejs,
@@ -108,65 +105,49 @@ import {
       name: "figma",
       icon: figma,
     },
-    {
-      name: "docker",
-      icon: docker,
-    },
+    // {
+    //   name: "docker",
+    //   icon: docker,
+    // },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Emerging Digital Academy",
+      company_name: "Full Stack Developer",
+      icon: Emerging,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "July 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Acquired hands-on experience in junior-level software development over an intensive 20-week period.",
+        "Gained practical knowledge through a curriculum designed to replicate real-world on-the-job training for new developers.",
+        "Mastered foundational web concepts and techniques essential for modern web development.",
+        "Became proficient in using modern web technologies including HTML5, CSS, JavaScript, git, React, and Node.js.",
+        "Enhanced collaboration and teamwork skills by working on projects and assignments with fellow students.",
+        "Benefitted from guest speakers, gaining insights into industry best practices and trends.",
+        "Built a strong professional network with fellow students, guest speakers, and local employers, which will be invaluable in future career endeavors.",
+        "Developed a deep understanding of the software development lifecycle, from ideation to deployment.",
+        "Cultivated a sense of community and collaboration, emphasizing the importance of teamwork in software development.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Minnesota State University Moorhead",
+      company_name: "Computer Information Technology",
+      icon: msum,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Aug 2019 - May 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
+        "Actively participated in various university activities, enhancing interpersonal and leadership skills.",
+        "Served as the Vice President of the African Student Union (ASU), leading initiatives and organizing events to promote cultural awareness and inclusivity.",
+        "Collaborated with fellow students on multiple academic projects, gaining problem-solving skills.",
+        "Engaged in group discussions, workshops, and seminars, expanding knowledge in Computer Information Technology.",
+        "Leveraged opportunities to network with professionals and alumni, gaining insights into industry trends and best practices.",
+        "Developed a strong foundation in web technologies, with a focus on creating user-centric applications.",
+        "Balanced academic responsibilities with extracurricular activities, honing time management and multitasking skills."
+          ],
     },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+    
+    
   ];
   
   const testimonials = [
@@ -198,16 +179,16 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Emerging Dev",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Emerging Dev is a web-based platform designed to foster collaboration and knowledge sharing among different cohorts. Whether it's about assignments, solo projects, or client projects, users can ask questions and get insights from their peers and alumni.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "postgresql",
           color: "green-text-gradient",
         },
         {
@@ -215,50 +196,50 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: emergingdev,
+      source_code_link: "https://github.com/ssaid20/emergingdev",
     },
     {
-      name: "Job IT",
+      name: "Movies Manager",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Movie Manager is a comprehensive movie management tool crafted with React, Redux, and Express. The application offers a user-friendly platform for movie enthusiasts to add, edit, and view their favorite movies, ensuring a personalized movie-manager experience.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "redux",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "sagas",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: moviesagas,
+      source_code_link: "https://github.com/ssaid20/movies-react-sagas",
     },
     {
-      name: "Trip Guide",
+      name: "Pet Hotel",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "This is a standard c-sharp project that was started with dotnet new react --no-https -o project-name. I collaborated with two of my cohort mates.User can add a new Pet Owner (and see error validations). User can add new Pets, associated with pet owners, User can check in a pet and see the timestamp on the table. User can check out a pet and delete it from the database aswell as update.",
       tags: [
         {
-          name: "nextjs",
+          name: ".NET",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "C#",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "React",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: pethotel,
+      source_code_link: "https://github.com/ssaid20/dotnet-pet-hotel",
     },
   ];
   
