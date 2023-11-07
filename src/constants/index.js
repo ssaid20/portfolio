@@ -153,7 +153,7 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+        "Said is a true professional. He is very knowledgeable and passionate about his work. He is a great communicator and always delivers on time.",
       name: "Sara Lee",
       designation: "CFO",
       company: "Acme Co",
@@ -161,7 +161,7 @@ import {
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
+        "I've never met a web developer who truly cares about their clients' success like Said does.",
       name: "Chris Brown",
       designation: "COO",
       company: "DEF Corp",
@@ -169,7 +169,7 @@ import {
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+        "Said is a great developer. I had the pleasure of working with him on a few projects and he always delivered on time and exceeded expectations.",
       name: "Lisa Wang",
       designation: "CTO",
       company: "456 Enterprises",
