@@ -161,11 +161,11 @@ import {
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Said does.",
+        "Transforms complex problems into elegant, user-friendly solutions, and is constantly learning new technologies and techniques to expand his skill set.",
       name: "Natnael Teferi",
       designation: "Software Engineer",
       company: "LinkenIn",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+      image: "https://media.licdn.com/dms/image/D5603AQGJ9R9EqwdeFQ/profile-displayphoto-shrink_800_800/0/1693346500172?e=1704931200&v=beta&t=9Aiilm1PCf8Ssh1djBpRV5NZdUOOR4hJQmApBdBI8SY",
     },
     {
       testimonial:
@@ -173,7 +173,7 @@ import {
       name: "Abenezar Mario",
       designation: "Software Engineer",
       company: "LinkedIn",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+      image: "https://media.licdn.com/dms/image/D5603AQH68cMpF0LcFA/profile-displayphoto-shrink_800_800/0/1686249648372?e=1704931200&v=beta&t=nwzH0enkio7PIyRhmCA08xu9bgxFeQPjXJKNrh3GJ-c",
     },
   ];
   
