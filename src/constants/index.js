@@ -154,25 +154,25 @@ import {
     {
       testimonial:
         "Said is a true professional. He is very knowledgeable and passionate about his work. He is a great communicator and always delivers on time.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+      name: "Sabir Asmare",
+      designation: "Software Engineer",
+      company: "Palo Alto Networks",
+      image: "https://media.licdn.com/dms/image/D5603AQFxWBEeQnijMA/profile-displayphoto-shrink_800_800/0/1674528415044?e=1704931200&v=beta&t=Xi9yidpQjF62VermlqBEK_1Qkn_XWyN4iYjXri5KRRo",
     },
     {
       testimonial:
         "I've never met a web developer who truly cares about their clients' success like Said does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
+      name: "Natnael Teferi",
+      designation: "Software Engineer",
+      company: "LinkenIn",
       image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
     {
       testimonial:
-        "Said is a great developer. I had the pleasure of working with him on a few projects and he always delivered on time and exceeded expectations.",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
+        "Said is a great developer. I had the pleasure of working with him on a few projects and he always exceeded expectations.",
+      name: "Abenezar Mario",
+      designation: "Software Engineer",
+      company: "LinkedIn",
       image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];
