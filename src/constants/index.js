@@ -179,6 +179,27 @@ import {
   
   const projects = [
     {
+      name: "Haley's Hope Student Tracker",
+      description:
+        "It's an innovative platform tailored to support the unique needs of students with dyslexia, enhancing educational accessibility and individualized learning strategies.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "redux",
+          color: "green-text-gradient",
+        },
+        {
+          name: "sagas",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: haleyshope,
+      source_code_link: "https://github.com/ssaid20/Haleys-Hope",
+    },
+    {
       name: "Emerging Dev",
       description:
         "Emerging Dev is a web-based platform designed to foster collaboration and knowledge sharing among different cohorts. Whether it's about assignments, solo projects, or client projects, users can ask questions and get insights from their peers and alumni.",
@@ -198,27 +219,6 @@ import {
       ],
       image: emergingdev,
       source_code_link: "https://github.com/ssaid20/emergingdev",
-    },
-    {
-      name: "Movies Manager",
-      description:
-        "Movie Manager is a comprehensive movie management tool crafted with React, Redux, and Express. The application offers a user-friendly platform for movie enthusiasts to add, edit, and view their favorite movies, ensuring a personalized movie-manager experience.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "redux",
-          color: "green-text-gradient",
-        },
-        {
-          name: "sagas",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: moviesagas,
-      source_code_link: "https://github.com/ssaid20/movies-react-sagas",
     },
     {
       name: "Pet Hotel",
