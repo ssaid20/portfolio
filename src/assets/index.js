@@ -26,7 +26,7 @@ import shopify from "./company/shopify.png";
 import Emerging from "./company/Emerging.png";
 import msum from "./company/msum.png";
 import emergingdev from "./emergingdev.png";
-import moviesagas from "./moviesagas.png";
+import haleyshope from "./haleyshope.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -59,6 +59,6 @@ export {
   emergingdev,
   jobit,
   tripguide,
-  moviesagas,
+  haleyshope,
   pethotel
 };

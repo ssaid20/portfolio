@@ -16,10 +16,10 @@ import {
     Emerging,
     msum,
     pethotel,
-    tripguide,
+    // tripguide,
     threejs,
     emergingdev,
-    moviesagas,
+    haleyshope,
   } from "../assets";
   
   export const navLinks = [
